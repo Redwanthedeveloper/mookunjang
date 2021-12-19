@@ -4,9 +4,6 @@ const Header = () => {
   return (
     <>
       <div className='header py-8 px-6 lg:px-12' id='header'>
-        <div className='connect bg-[#7eaefb2f] lg:py-4 lg:px-12 py-4 px-8 rounded-full hover:bg-[#b2b0f2] transition-all delay-100 fixed bottom-4 right-4 z-10'>
-          <button className='uppercase text-white'>connect</button>
-        </div>
         <div className='header__wrapper grid gap-6 sm:gap-0 sm:grid-cols-3 justify-center items-center rounded-full'>
           <div className=' main__nav '>
             <ul className='flex gap-8 sm:gap-8 lg:gap-16 uppercase font-bold text-white lg:items-center lg:py-6 lg:px-20 sm:py-6 px-8'>
