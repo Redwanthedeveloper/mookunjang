@@ -5,9 +5,13 @@ const About = () => {
     <>
       <div className='about mt-0 lg:mt-24 py-12' id='about'>
         <div className='container mx-auto'>
-          <div className='about__main px-6 grid grid-cols-1 lg:grid-cols-3 lg:gap-6 items-center'>
-            <div className='about__image col-span-1'>
-              <img src={aboutGif} alt='' className='max-w-full' />
+          <div
+            className='about__main px-6 grid grid-cols-1 lg:grid-cols-3 lg:gap-6 gap-y-6 items-center'
+            data-aos='fade-up'
+            data-aos-duration='1000'
+          >
+            <div className='about__image col-span-1 mx-auto w-72'>
+              <img src={aboutGif} alt='' className='max-w-full ' />
             </div>
             <div className='about__content col-span-2'>
               <h1 className='font-normal text-4xl text-center pb-6 lg:pb-12 text-white lg:text-left lg:text-5xl'>

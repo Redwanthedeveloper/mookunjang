@@ -16,59 +16,44 @@ const Team = () => {
               <div
                 className='team__content bg-[#7eaefb78] border-2 border-gray-300 py-8 px-4 rounded-2xl '
                 data-aos='fade-up'
-                data-aos-anchor-placement='center-center'
+                data-aos-duration='1000'
               >
                 <img
                   src={image1}
                   alt=''
                   className='max-w-full rounded-full w-52 mx-auto'
                 />
-                <h3 className='text-center text-xl uppercase font-bold py-4 '>
+                <h3 className='text-center text-lg lg:text-xl uppercase font-extrabold py-4 text-gray-300'>
                   Dr. Toadler
                 </h3>
-                <p className='text-center text-white'>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Blanditiis libero minus quos perspiciatis nulla suscipit
-                  corporis quod hic itaque nesciunt.
-                </p>
               </div>
               <div
                 className='team__content bg-[#7eaefb78] border-2 border-gray-300 py-8 px-4 rounded-2xl '
                 data-aos='fade-up'
-                data-aos-anchor-placement='center-center'
+                data-aos-duration='1200'
               >
                 <img
                   src={image2}
                   alt=''
                   className='max-w-full rounded-full w-52 mx-auto'
                 />
-                <h3 className='text-center text-xl uppercase font-bold py-4 '>
+                <h3 className='text-center text-lg lg:text-xl uppercase font-extrabold py-4 text-gray-300'>
                   Nerd. toadler
                 </h3>
-                <p className='text-center text-white'>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Blanditiis libero minus quos perspiciatis nulla suscipit
-                  corporis quod hic itaque nesciunt.
-                </p>
               </div>
               <div
                 className='team__content bg-[#7eaefb78] border-2 border-gray-300 py-8 px-4 rounded-2xl '
                 data-aos='fade-up'
-                data-aos-anchor-placement='center-center'
+                data-aos-duration='1400'
               >
                 <img
                   src={image3}
                   alt=''
                   className='max-w-full rounded-full w-52 mx-auto'
                 />
-                <h3 className='text-center text-xl uppercase font-bold py-4 '>
+                <h3 className='text-center text-lg lg:text-xl uppercase font-extrabold py-4 text-gray-300'>
                   Baby. toadler
                 </h3>
-                <p className='text-center text-white'>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Blanditiis libero minus quos perspiciatis nulla suscipit
-                  corporis quod hic itaque nesciunt.
-                </p>
               </div>
             </div>
           </div>

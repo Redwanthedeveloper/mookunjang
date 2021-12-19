@@ -50,7 +50,11 @@ const RarityItems = () => {
     <>
       <div className='py-12 lg:mt-24 rarity__items' id='attributes'>
         <div className='container mx-auto'>
-          <div className='items__wrapper'>
+          <div
+            className='items__wrapper'
+            data-aos='fade-up'
+            data-aos-duration='1000'
+          >
             <h1 className='text-center text-white text-2xl lg:text-3xl pt-12 lg:pt-16 font-bold uppercase'>
               skins
             </h1>
@@ -72,14 +76,6 @@ const RarityItems = () => {
               </div>
 
               <div className='item flex flex-col items-center justify-center'>
-                <img src={skin3} alt='' className='max-w-full' />
-                <h2 className='text-center font-bold text-xl text-white uppercase'>
-                  Brown
-                </h2>
-                <p className='text-center font-normal text-gray-200'>11.93%</p>
-              </div>
-
-              <div className='item flex flex-col items-center justify-center'>
                 <img src={skin4} alt='' className='max-w-full' />
                 <h2 className='text-center font-bold text-xl text-white uppercase'>
                   Gray
@@ -96,11 +92,11 @@ const RarityItems = () => {
               </div>
 
               <div className='item flex flex-col items-center justify-center'>
-                <img src={skin6} alt='' className='max-w-full' />
+                <img src={skin9} alt='' className='max-w-full' />
                 <h2 className='text-center font-bold text-xl text-white uppercase'>
-                  Orange
+                  White
                 </h2>
-                <p className='text-center font-normal text-gray-200'>12.34%</p>
+                <p className='text-center font-normal text-gray-200'>10.51%</p>
               </div>
 
               <div className='item flex flex-col items-center justify-center'>
@@ -120,12 +116,13 @@ const RarityItems = () => {
               </div>
 
               <div className='item flex flex-col items-center justify-center'>
-                <img src={skin9} alt='' className='max-w-full' />
+                <img src={skin3} alt='' className='max-w-full' />
                 <h2 className='text-center font-bold text-xl text-white uppercase'>
-                  White
+                  Brown
                 </h2>
-                <p className='text-center font-normal text-gray-200'>10.51%</p>
+                <p className='text-center font-normal text-gray-200'>11.93%</p>
               </div>
+
               <div className='item flex flex-col items-center justify-center'>
                 <img src={skin10} alt='' className='max-w-full' />
                 <h2 className='text-center font-bold text-xl text-white uppercase'>
@@ -133,14 +130,33 @@ const RarityItems = () => {
                 </h2>
                 <p className='text-center font-normal text-gray-200'>12.25%</p>
               </div>
+              <div className='item flex flex-col items-center justify-center'>
+                <img src={skin6} alt='' className='max-w-full' />
+                <h2 className='text-center font-bold text-xl text-white uppercase'>
+                  Orange
+                </h2>
+                <p className='text-center font-normal text-gray-200'>12.34%</p>
+              </div>
             </div>
           </div>
 
-          <div className='items__wrapper'>
+          <div
+            className='items__wrapper'
+            data-aos='fade-up'
+            data-aos-duration='1000'
+          >
             <h1 className='text-center text-white text-2xl lg:text-3xl py-12 lg:pt-16 font-bold uppercase'>
               Backgrounds
             </h1>
             <div className='item__list grid grid-cols-3 lg:grid-cols-5 gap-3 lg:gap-6 px-6'>
+              <div className='item flex flex-col items-center justify-center'>
+                <img src={bg5} alt='' className='max-w-full' />
+                <h2 className='text-center font-bold text-xl text-white uppercase'>
+                  sky
+                </h2>
+                <p className='text-center font-normal text-gray-200'>12.98%</p>
+              </div>
+
               <div className='item flex flex-col items-center justify-center'>
                 <img src={bg1} alt='' className='max-w-full' />
                 <h2 className='text-center font-bold text-xl text-white uppercase'>
@@ -172,18 +188,14 @@ const RarityItems = () => {
                 </h2>
                 <p className='text-center font-normal text-gray-200'>24.65%</p>
               </div>
-
-              <div className='item flex flex-col items-center justify-center'>
-                <img src={bg5} alt='' className='max-w-full' />
-                <h2 className='text-center font-bold text-xl text-white uppercase'>
-                  sky
-                </h2>
-                <p className='text-center font-normal text-gray-200'>12.98%</p>
-              </div>
             </div>
           </div>
 
-          <div className='items__wrapper'>
+          <div
+            className='items__wrapper'
+            data-aos='fade-up'
+            data-aos-duration='1000'
+          >
             <h1 className='text-center text-white text-2xl lg:text-3xl py-12 lg:pt-16 font-bold uppercase'>
               hats
             </h1>
@@ -197,54 +209,6 @@ const RarityItems = () => {
               </div>
 
               <div className='item flex flex-col items-center justify-center'>
-                <img src={hat2} alt='' className='max-w-full' />
-                <h2 className='text-center font-bold text-xl text-white uppercase'>
-                  cap
-                </h2>
-                <p className='text-center font-normal text-gray-200'>10.32%</p>
-              </div>
-
-              <div className='item flex flex-col items-center justify-center'>
-                <img src={hat3} alt='' className='max-w-full' />
-                <h2 className='text-center font-bold text-xl text-white uppercase'>
-                  crown
-                </h2>
-                <p className='text-center font-normal text-gray-200'>12.91%</p>
-              </div>
-
-              <div className='item flex flex-col items-center justify-center'>
-                <img src={hat4} alt='' className='max-w-full' />
-                <h2 className='text-center font-bold text-xl text-white uppercase'>
-                  devil
-                </h2>
-                <p className='text-center font-normal text-gray-200'>10.90%</p>
-              </div>
-
-              <div className='item flex flex-col items-center justify-center'>
-                <img src={hat5} alt='' className='max-w-full' />
-                <h2 className='text-center font-bold text-xl text-white uppercase'>
-                  fedora
-                </h2>
-                <p className='text-center font-normal text-gray-200'>11.56%</p>
-              </div>
-
-              <div className='item flex flex-col items-center justify-center'>
-                <img src={hat6} alt='' className='max-w-full' />
-                <h2 className='text-center font-bold text-xl text-white uppercase'>
-                  flower
-                </h2>
-                <p className='text-center font-normal text-gray-200'>11.18%</p>
-              </div>
-
-              <div className='item flex flex-col items-center justify-center'>
-                <img src={hat7} alt='' className='max-w-full' />
-                <h2 className='text-center font-bold text-xl text-white uppercase'>
-                  halo
-                </h2>
-                <p className='text-center font-normal text-gray-200'>12.19%</p>
-              </div>
-
-              <div className='item flex flex-col items-center justify-center'>
                 <img src={hat8} alt='' className='max-w-full' />
                 <h2 className='text-center font-bold text-xl text-white uppercase'>
                   magician
@@ -253,11 +217,11 @@ const RarityItems = () => {
               </div>
 
               <div className='item flex flex-col items-center justify-center'>
-                <img src={hat9} alt='' className='max-w-full' />
+                <img src={hat2} alt='' className='max-w-full' />
                 <h2 className='text-center font-bold text-xl text-white uppercase'>
-                  pirate
+                  cap
                 </h2>
-                <p className='text-center font-normal text-gray-200'>12.24%</p>
+                <p className='text-center font-normal text-gray-200'>10.32%</p>
               </div>
 
               <div className='item flex flex-col items-center justify-center'>
@@ -267,38 +231,61 @@ const RarityItems = () => {
                 </h2>
                 <p className='text-center font-normal text-gray-200'>10.39%</p>
               </div>
+              <div className='item flex flex-col items-center justify-center'>
+                <img src={hat4} alt='' className='max-w-full' />
+                <h2 className='text-center font-bold text-xl text-white uppercase'>
+                  devil
+                </h2>
+                <p className='text-center font-normal text-gray-200'>10.90%</p>
+              </div>
+              <div className='item flex flex-col items-center justify-center'>
+                <img src={hat6} alt='' className='max-w-full' />
+                <h2 className='text-center font-bold text-xl text-white uppercase'>
+                  flower
+                </h2>
+                <p className='text-center font-normal text-gray-200'>11.18%</p>
+              </div>
+              <div className='item flex flex-col items-center justify-center'>
+                <img src={hat5} alt='' className='max-w-full' />
+                <h2 className='text-center font-bold text-xl text-white uppercase'>
+                  fedora
+                </h2>
+                <p className='text-center font-normal text-gray-200'>11.56%</p>
+              </div>
+              <div className='item flex flex-col items-center justify-center'>
+                <img src={hat7} alt='' className='max-w-full' />
+                <h2 className='text-center font-bold text-xl text-white uppercase'>
+                  halo
+                </h2>
+                <p className='text-center font-normal text-gray-200'>12.19%</p>
+              </div>
+
+              <div className='item flex flex-col items-center justify-center'>
+                <img src={hat9} alt='' className='max-w-full' />
+                <h2 className='text-center font-bold text-xl text-white uppercase'>
+                  pirate
+                </h2>
+                <p className='text-center font-normal text-gray-200'>12.24%</p>
+              </div>
+              <div className='item flex flex-col items-center justify-center'>
+                <img src={hat3} alt='' className='max-w-full' />
+                <h2 className='text-center font-bold text-xl text-white uppercase'>
+                  crown
+                </h2>
+                <p className='text-center font-normal text-gray-200'>12.91%</p>
+              </div>
             </div>
           </div>
 
-          <div className='items__wrapper'>
+          <div
+            className='items__wrapper'
+            data-aos='fade-up'
+            data-aos-duration='1000'
+          >
             <h1 className='text-center text-white text-2xl lg:text-3xl py-12 lg:pt-16 font-bold uppercase'>
               outfit
             </h1>
             <div className='item__list grid grid-cols-3 lg:grid-cols-5 gap-3 lg:gap-6 px-6'>
-              <div className='item flex flex-col items-center justify-center'>
-                <img src={outfit1} alt='' className='max-w-full' />
-                <h2 className='text-center font-bold text-xl text-white uppercase'>
-                  casual
-                </h2>
-                <p className='text-center font-normal text-gray-200'>25.13%</p>
-              </div>
-
-              <div className='item flex flex-col items-center justify-center'>
-                <img src={outfit2} alt='' className='max-w-full' />
-                <h2 className='text-center font-bold text-xl text-white uppercase'>
-                  Hoodie
-                </h2>
-                <p className='text-center font-normal text-gray-200'>24.01%</p>
-              </div>
-
-              <div className='item flex flex-col items-center justify-center'>
-                <img src={outfit3} alt='' className='max-w-full' />
-                <h2 className='text-center font-bold text-xl text-white uppercase'>
-                  kimono
-                </h2>
-                <p className='text-center font-normal text-gray-200'>25.33%</p>
-              </div>
-
               <div className='item flex flex-col items-center justify-center'>
                 <img src={outfit4} alt='' className='max-w-full' />
                 <h2 className='text-center font-bold text-xl text-white uppercase'>
@@ -314,20 +301,48 @@ const RarityItems = () => {
                 </h2>
                 <p className='text-center font-normal text-gray-200'>15.49%</p>
               </div>
+
+              <div className='item flex flex-col items-center justify-center'>
+                <img src={outfit2} alt='' className='max-w-full' />
+                <h2 className='text-center font-bold text-xl text-white uppercase'>
+                  Hoodie
+                </h2>
+                <p className='text-center font-normal text-gray-200'>24.01%</p>
+              </div>
+
+              <div className='item flex flex-col items-center justify-center'>
+                <img src={outfit1} alt='' className='max-w-full' />
+                <h2 className='text-center font-bold text-xl text-white uppercase'>
+                  casual
+                </h2>
+                <p className='text-center font-normal text-gray-200'>25.13%</p>
+              </div>
+
+              <div className='item flex flex-col items-center justify-center'>
+                <img src={outfit3} alt='' className='max-w-full' />
+                <h2 className='text-center font-bold text-xl text-white uppercase'>
+                  kimono
+                </h2>
+                <p className='text-center font-normal text-gray-200'>25.33%</p>
+              </div>
             </div>
           </div>
 
-          <div className='items__wrapper'>
+          <div
+            className='items__wrapper'
+            data-aos='fade-up'
+            data-aos-duration='1000'
+          >
             <h1 className='text-center text-white text-2xl lg:text-3xl py-12 lg:pt-16 font-bold uppercase'>
               accessory
             </h1>
             <div className='item__list grid grid-cols-3 lg:grid-cols-6 gap-3 lg:gap-6 px-6'>
               <div className='item flex flex-col items-center justify-center'>
-                <img src={accessory1} alt='' className='max-w-full' />
+                <img src={accessory11} alt='' className='max-w-full' />
                 <h2 className='text-center font-bold text-xl text-white uppercase'>
-                  blossom
+                  wings
                 </h2>
-                <p className='text-center font-normal text-gray-200'>11.87%</p>
+                <p className='text-center font-normal text-gray-200'>1.44%</p>
               </div>
 
               <div className='item flex flex-col items-center justify-center'>
@@ -336,14 +351,6 @@ const RarityItems = () => {
                   cigar
                 </h2>
                 <p className='text-center font-normal text-gray-200'>4.00%</p>
-              </div>
-
-              <div className='item flex flex-col items-center justify-center'>
-                <img src={accessory3} alt='' className='max-w-full' />
-                <h2 className='text-center font-bold text-xl text-white uppercase'>
-                  glasses
-                </h2>
-                <p className='text-center font-normal text-gray-200'>10.14%</p>
               </div>
 
               <div className='item flex flex-col items-center justify-center'>
@@ -363,11 +370,11 @@ const RarityItems = () => {
               </div>
 
               <div className='item flex flex-col items-center justify-center'>
-                <img src={accessory6} alt='' className='max-w-full' />
+                <img src={accessory3} alt='' className='max-w-full' />
                 <h2 className='text-center font-bold text-xl text-white uppercase'>
-                  mustache
+                  glasses
                 </h2>
-                <p className='text-center font-normal text-gray-200'>11.21%</p>
+                <p className='text-center font-normal text-gray-200'>10.14%</p>
               </div>
 
               <div className='item flex flex-col items-center justify-center'>
@@ -387,6 +394,14 @@ const RarityItems = () => {
               </div>
 
               <div className='item flex flex-col items-center justify-center'>
+                <img src={accessory6} alt='' className='max-w-full' />
+                <h2 className='text-center font-bold text-xl text-white uppercase'>
+                  mustache
+                </h2>
+                <p className='text-center font-normal text-gray-200'>11.21%</p>
+              </div>
+
+              <div className='item flex flex-col items-center justify-center'>
                 <img src={accessory9} alt='' className='max-w-full' />
                 <h2 className='text-center font-bold text-xl text-white uppercase'>
                   pipe
@@ -395,18 +410,19 @@ const RarityItems = () => {
               </div>
 
               <div className='item flex flex-col items-center justify-center'>
+                <img src={accessory1} alt='' className='max-w-full' />
+                <h2 className='text-center font-bold text-xl text-white uppercase'>
+                  blossom
+                </h2>
+                <p className='text-center font-normal text-gray-200'>11.87%</p>
+              </div>
+
+              <div className='item flex flex-col items-center justify-center'>
                 <img src={accessory10} alt='' className='max-w-full' />
                 <h2 className='text-center font-bold text-xl text-white uppercase'>
                   ribbon
                 </h2>
                 <p className='text-center font-normal text-gray-200'>11.97%</p>
-              </div>
-              <div className='item flex flex-col items-center justify-center'>
-                <img src={accessory11} alt='' className='max-w-full' />
-                <h2 className='text-center font-bold text-xl text-white uppercase'>
-                  wings
-                </h2>
-                <p className='text-center font-normal text-gray-200'>1.44%</p>
               </div>
             </div>
           </div>

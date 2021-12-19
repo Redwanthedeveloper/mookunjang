@@ -1,7 +1,5 @@
 import React from 'react';
-import banner1 from '../assets/images/banner1.png';
-import banner2 from '../assets/images/banner2.png';
-import banner3 from '../assets/images/banner3.png';
+import banner from '../assets/images/banner.gif';
 
 const Banner = () => {
   return (
@@ -15,17 +13,17 @@ const Banner = () => {
               data-aos-duration='1200'
             >
               <img
-                src={banner1}
+                src={banner}
                 alt=''
                 className='max-w-full w-28 lg:w-40 rounded-lg transform -rotate-12'
               />
               <img
-                src={banner2}
+                src={banner}
                 alt=''
                 className='max-w-full w-28 lg:w-40 rounded-lg'
               />
               <img
-                src={banner3}
+                src={banner}
                 alt=''
                 className='max-w-full w-28 lg:w-40 rounded-lg transform rotate-12'
               />

@@ -13,9 +13,8 @@ const Roadmap = () => {
               <div className='item__content  after:rounded-t-xl mb-6 lg:mb-20'>
                 <p
                   className='text-white lg:text-lg border-2 border-x-cyan-50 py-6 px-4 rounded-md'
-                  data-aos='fade-up'
-                  data-aos-anchor-placement='center-center'
-                  data-aos-duration='1200'
+                  data-aos='fade-right'
+                  data-aos-duration='1000'
                 >
                   10,00 NFT will be accessible altogether, split between the
                   pre-sale and public sale. <br /> <br />
@@ -31,9 +30,8 @@ const Roadmap = () => {
               <div className='item__content  col-start-2 mb-6 lg:mb-20'>
                 <p
                   className='text-white lg:text-lg border-2 border-x-cyan-50 py-6 px-4 rounded-md'
-                  data-aos='fade-up'
-                  data-aos-anchor-placement='center-center'
-                  data-aos-duration='1300'
+                  data-aos='fade-left'
+                  data-aos-duration='1200'
                 >
                   Don't give up so early if you missed the premint- Follow our
                   Twitter and Discord for next public minting information.
@@ -47,8 +45,7 @@ const Roadmap = () => {
               <div className='item__content  mb-6 lg:mb-20'>
                 <p
                   className='text-white lg:text-lg border-2 border-x-cyan-50 py-6 px-4 rounded-md'
-                  data-aos='fade-up'
-                  data-aos-anchor-placement='center-center'
+                  data-aos='fade-right'
                   data-aos-duration='1400'
                 >
                   75% completed minting will be donated to charities.
@@ -60,9 +57,8 @@ const Roadmap = () => {
               <div className='item__content  col-start-2 after:rounded-b-xl '>
                 <p
                   className='text-white lg:text-lg border-2 border-x-cyan-50 py-6 px-4 rounded-md'
-                  data-aos='fade-up'
-                  data-aos-anchor-placement='center-center'
-                  data-aos-duration='1500'
+                  data-aos='fade-left'
+                  data-aos-duration='1600'
                 >
                   For the first 10,000 Toadlers from our first project will
                   automatically be whitelisted for our future project.
