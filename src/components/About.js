@@ -15,7 +15,7 @@ const About = () => {
             </div>
             <div className='about__content col-span-2'>
               <h1 className='font-normal text-4xl text-center pb-6 lg:pb-12 text-white lg:text-left lg:text-5xl'>
-                A collection of 10,000 Doodles
+                About ToadleToadle
               </h1>
               <p className='text-center text-white text-base lg:text-left leading-8 lg:text-xl'>
                 ToadleToadle is a creative NFT community that encourages to

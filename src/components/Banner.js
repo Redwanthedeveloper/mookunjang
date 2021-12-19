@@ -29,10 +29,10 @@ const Banner = () => {
               />
             </div>
             <h2 className='font-bold text-4xl text-white lg:pt-12'>
-              Mint a Doodle
+              Mint a Toadle
             </h2>
             <p className='text-center text-base  text-white'>
-              0/1000 Doodles left at 0.123 ETH each
+              0/1000 Toadle left at 0.123 ETH each
             </p>
           </div>
         </div>
