@@ -50,14 +50,21 @@ const RarityItems = () => {
     <>
       <div className='py-12 lg:mt-24 rarity__items' id='attributes'>
         <div className='container mx-auto'>
+          <h1
+            className='font-bold text-3xl text-center pb-6 lg:pb-12 text-white lg:text-center lg:text-4xl uppercase'
+            data-aos='fade-up'
+            data-aos-duration='1000'
+          >
+            rarity
+          </h1>
           <div
             className='items__wrapper'
             data-aos='fade-up'
             data-aos-duration='1000'
           >
-            <h1 className='text-center text-white text-2xl lg:text-3xl pt-12 lg:pt-16 font-bold uppercase'>
+            <h2 className='text-center text-white text-2xl lg:text-3xl pt-12 lg:pt-16 font-bold uppercase'>
               skins
-            </h1>
+            </h2>
             <div className='item__list grid grid-cols-3 lg:grid-cols-6 gap-3 lg:gap-6 px-6'>
               <div className='item flex flex-col items-center justify-center'>
                 <img src={skin1} alt='' className='max-w-full' />
@@ -145,9 +152,9 @@ const RarityItems = () => {
             data-aos='fade-up'
             data-aos-duration='1000'
           >
-            <h1 className='text-center text-white text-2xl lg:text-3xl py-12 lg:pt-16 font-bold uppercase'>
+            <h2 className='text-center text-white text-2xl lg:text-3xl py-12 lg:pt-16 font-bold uppercase'>
               Backgrounds
-            </h1>
+            </h2>
             <div className='item__list grid grid-cols-3 lg:grid-cols-5 gap-3 lg:gap-6 px-6'>
               <div className='item flex flex-col items-center justify-center'>
                 <img src={bg5} alt='' className='max-w-full' />
@@ -196,9 +203,9 @@ const RarityItems = () => {
             data-aos='fade-up'
             data-aos-duration='1000'
           >
-            <h1 className='text-center text-white text-2xl lg:text-3xl py-12 lg:pt-16 font-bold uppercase'>
+            <h2 className='text-center text-white text-2xl lg:text-3xl py-12 lg:pt-16 font-bold uppercase'>
               hats
-            </h1>
+            </h2>
             <div className='item__list grid grid-cols-3 lg:grid-cols-6 gap-3 lg:gap-6 px-6'>
               <div className='item flex flex-col items-center justify-center'>
                 <img src={hat1} alt='' className='max-w-full' />
@@ -282,9 +289,9 @@ const RarityItems = () => {
             data-aos='fade-up'
             data-aos-duration='1000'
           >
-            <h1 className='text-center text-white text-2xl lg:text-3xl py-12 lg:pt-16 font-bold uppercase'>
+            <h2 className='text-center text-white text-2xl lg:text-3xl py-12 lg:pt-16 font-bold uppercase'>
               outfit
-            </h1>
+            </h2>
             <div className='item__list grid grid-cols-3 lg:grid-cols-5 gap-3 lg:gap-6 px-6'>
               <div className='item flex flex-col items-center justify-center'>
                 <img src={outfit4} alt='' className='max-w-full' />
@@ -333,9 +340,9 @@ const RarityItems = () => {
             data-aos='fade-up'
             data-aos-duration='1000'
           >
-            <h1 className='text-center text-white text-2xl lg:text-3xl py-12 lg:pt-16 font-bold uppercase'>
+            <h2 className='text-center text-white text-2xl lg:text-3xl py-12 lg:pt-16 font-bold uppercase'>
               accessory
-            </h1>
+            </h2>
             <div className='item__list grid grid-cols-3 lg:grid-cols-6 gap-3 lg:gap-6 px-6'>
               <div className='item flex flex-col items-center justify-center'>
                 <img src={accessory11} alt='' className='max-w-full' />

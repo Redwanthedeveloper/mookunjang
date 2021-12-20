@@ -129,9 +129,9 @@ const Banner = () => {
                 className='max-w-full w-28 lg:w-40 rounded-lg transform rotate-12'
               />
             </div>
-            <h2 className='font-bold text-4xl text-white lg:pt-12'>
+            <h1 className='font-bold text-4xl text-white lg:pt-12'>
               Mint a Toadle
-            </h2>
+            </h1>
             <p className='text-center text-base  text-white'>
               {data.totalSupply} / {CONFIG.MAX_SUPPLY} Toadle left at 0.123 ETH
               each

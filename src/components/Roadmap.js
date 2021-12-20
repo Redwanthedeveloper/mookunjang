@@ -6,7 +6,11 @@ const Roadmap = () => {
       <div className='roadmap lg:mt-24 py-12' id='roadmap'>
         <div className='container mx-auto'>
           <div className='roadmap__inner  px-6'>
-            <h1 className='font-bold text-3xl text-center pb-6 lg:pb-12 text-white lg:text-center lg:text-4xl uppercase'>
+            <h1
+              className='font-bold text-3xl text-center pb-6 lg:pb-12 text-white lg:text-center lg:text-4xl uppercase'
+              data-aos='fade-up'
+              data-aos-duration='1000'
+            >
               Roadmap
             </h1>
             <div className='roadmap__item__wrapper lg:grid lg:grid-cols-2 relative gap-28'>

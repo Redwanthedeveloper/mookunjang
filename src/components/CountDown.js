@@ -38,9 +38,9 @@ const CountDown = () => {
       <div className='CountDown py-12' style={{}}>
         <div className='Main__Margin px-5 lg:px-12 rounded'>
           <div className='CountDown__inner md:px-8 md:pt-16'>
-            <p className='text-center  text-3xl lg:text-6xl font-bold tracking-wide uppercase mb-6 text-white'>
+            <h1 className='text-center  text-3xl lg:text-6xl font-bold tracking-wide uppercase mb-6 text-white'>
               Coming Soon!
-            </p>
+            </h1>
             <Countdown date={Date.now() + 100} renderer={renderer} />
           </div>
         </div>
