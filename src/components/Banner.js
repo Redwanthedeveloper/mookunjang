@@ -157,7 +157,7 @@ const Banner = () => {
                 blockchain.smartContract === null ? (
                   <>
                     <p className='text-white font-semibold'>
-                      Connect to the {CONFIG.NETWORK.NAME} ne twork
+                      Connect to the {CONFIG.NETWORK.NAME} network
                     </p>
                     <div className='connect bg-[#7eaefb2f] lg:py-4 lg:px-12 py-4 px-8 rounded-full hover:bg-[#b2b0f2] transition-all delay-100 '>
                       <button
