@@ -6,7 +6,10 @@ import newYork from '../assets/images/newyork.mp4';
 const Roadmap = () => {
   return (
     <>
-      <div className='roadmap lg:mt-24 py-12' id='roadmap'>
+      <div
+        className='roadmap lg:mt-24 mt-20 py-20  bg-gradient-to-bl from-[#810781dc] top-[#595ab9e3] '
+        id='roadmap'
+      >
         <div className='container mx-auto px-4 lg:px-0'>
           <div className='roadmap__inner  px-6'>
             <h1
@@ -16,65 +19,9 @@ const Roadmap = () => {
             >
               Roadmap
             </h1>
-            <div className='roadmap__item__wrapper lg:grid lg:grid-cols-2 relative gap-28'>
-              <div className='item__content  after:rounded-t-xl mb-6 lg:mb-20'>
-                <p
-                  className='text-white lg:text-lg border-2 border-x-cyan-50 py-6 px-4 rounded-md'
-                  data-aos='fade-right'
-                  data-aos-duration='1000'
-                >
-                  10,00 NFT will be accessible altogether, split between the
-                  pre-sale and public sale. <br /> <br />
-                  NFT not redeemed in the pre-sale will be sent into the public
-                  sale. <br /> <br />
-                  All NFT has characteristics and traits will be created
-                  randomly and uncovered later the public sale.
-                </p>
-              </div>
-            </div>
-
-            <div className='roadmap__item__wrapper lg:grid lg:grid-cols-2 relative gap-28'>
-              <div className='item__content  col-start-2 mb-6 lg:mb-20'>
-                <p
-                  className='text-white lg:text-lg border-2 border-x-cyan-50 py-6 px-4 rounded-md'
-                  data-aos='fade-left'
-                  data-aos-duration='1200'
-                >
-                  Don't give up so early if you missed the premint- Follow our
-                  Twitter and Discord for next public minting information.
-                  <br /> <br />
-                  There will be another chance for you to become a Toadler!
-                </p>
-              </div>
-            </div>
-
-            <div className='roadmap__item__wrapper lg:grid lg:grid-cols-2 relative gap-28'>
-              <div className='item__content  mb-6 lg:mb-20'>
-                <p
-                  className='text-white lg:text-lg border-2 border-x-cyan-50 py-6 px-4 rounded-md'
-                  data-aos='fade-right'
-                  data-aos-duration='1400'
-                >
-                  75% completed minting will be donated to charities.
-                </p>
-              </div>
-            </div>
-
-            <div className='roadmap__item__wrapper lg:grid lg:grid-cols-2 relative gap-28'>
-              <div className='item__content  col-start-2 after:rounded-b-xl '>
-                <p
-                  className='text-white lg:text-lg border-2 border-x-cyan-50 py-6 px-4 rounded-md'
-                  data-aos='fade-left'
-                  data-aos-duration='1600'
-                >
-                  For the first 10,000 Toadlers from our first project will
-                  automatically be whitelisted for our future project.
-                </p>
-              </div>
-            </div>
           </div>
         </div>
-        <div className='roadmap__v2 mt-20 py-20 text-white bg-gradient-to-bl from-[#810781dc] top-[#595ab9e3] '>
+        <div className='roadmap__v2  text-white'>
           <p className='text-center py-4 lg:text-lg'>
             Rule of thumb: 60% of funding will roll over to our future
             development and projects
